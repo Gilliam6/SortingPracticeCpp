@@ -1,0 +1,3 @@
+/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles/Sorting.dir
+/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles/edit_cache.dir
+/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles/rebuild_cache.dir
