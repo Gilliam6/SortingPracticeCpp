@@ -129,29 +129,77 @@ Sorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/build
 .PHONY : Sorting/fast
 
-selectionSort.o: selectionSort.cpp.o
-.PHONY : selectionSort.o
+Benchmark.o: Benchmark.cpp.o
+.PHONY : Benchmark.o
 
 # target to build an object file
-selectionSort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/selectionSort.cpp.o
-.PHONY : selectionSort.cpp.o
+Benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Benchmark.cpp.o
+.PHONY : Benchmark.cpp.o
 
-selectionSort.i: selectionSort.cpp.i
-.PHONY : selectionSort.i
+Benchmark.i: Benchmark.cpp.i
+.PHONY : Benchmark.i
 
 # target to preprocess a source file
-selectionSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/selectionSort.cpp.i
-.PHONY : selectionSort.cpp.i
+Benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Benchmark.cpp.i
+.PHONY : Benchmark.cpp.i
 
-selectionSort.s: selectionSort.cpp.s
-.PHONY : selectionSort.s
+Benchmark.s: Benchmark.cpp.s
+.PHONY : Benchmark.s
 
 # target to generate assembly for a file
-selectionSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/selectionSort.cpp.s
-.PHONY : selectionSort.cpp.s
+Benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Benchmark.cpp.s
+.PHONY : Benchmark.cpp.s
+
+Sort.o: Sort.cpp.o
+.PHONY : Sort.o
+
+# target to build an object file
+Sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Sort.cpp.o
+.PHONY : Sort.cpp.o
+
+Sort.i: Sort.cpp.i
+.PHONY : Sort.i
+
+# target to preprocess a source file
+Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Sort.cpp.i
+.PHONY : Sort.cpp.i
+
+Sort.s: Sort.cpp.s
+.PHONY : Sort.s
+
+# target to generate assembly for a file
+Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/Sort.cpp.s
+.PHONY : Sort.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sorting"
-	@echo "... selectionSort.o"
-	@echo "... selectionSort.i"
-	@echo "... selectionSort.s"
+	@echo "... Benchmark.o"
+	@echo "... Benchmark.i"
+	@echo "... Benchmark.s"
+	@echo "... Sort.o"
+	@echo "... Sort.i"
+	@echo "... Sort.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

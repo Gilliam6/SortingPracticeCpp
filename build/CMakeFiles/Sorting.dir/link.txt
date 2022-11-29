@@ -1,1 +1,1 @@
-/usr/bin/g++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Sorting.dir/selectionSort.cpp.o -o Sorting  /usr/local/lib/libmatplot.dylib 
+/usr/bin/g++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Sorting.dir/main.cpp.o CMakeFiles/Sorting.dir/Sort.cpp.o CMakeFiles/Sorting.dir/Benchmark.cpp.o -o Sorting  /usr/local/lib/libmatplot.dylib 

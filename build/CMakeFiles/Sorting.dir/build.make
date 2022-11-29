@@ -69,32 +69,64 @@ include CMakeFiles/Sorting.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sorting.dir/flags.make
 
-CMakeFiles/Sorting.dir/selectionSort.cpp.o: CMakeFiles/Sorting.dir/flags.make
-CMakeFiles/Sorting.dir/selectionSort.cpp.o: /Users/wizzz/21school/cpp_practice/sorting/selectionSort.cpp
-CMakeFiles/Sorting.dir/selectionSort.cpp.o: CMakeFiles/Sorting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sorting.dir/selectionSort.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting.dir/selectionSort.cpp.o -MF CMakeFiles/Sorting.dir/selectionSort.cpp.o.d -o CMakeFiles/Sorting.dir/selectionSort.cpp.o -c /Users/wizzz/21school/cpp_practice/sorting/selectionSort.cpp
+CMakeFiles/Sorting.dir/main.cpp.o: CMakeFiles/Sorting.dir/flags.make
+CMakeFiles/Sorting.dir/main.cpp.o: /Users/wizzz/21school/cpp_practice/sorting/main.cpp
+CMakeFiles/Sorting.dir/main.cpp.o: CMakeFiles/Sorting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sorting.dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting.dir/main.cpp.o -MF CMakeFiles/Sorting.dir/main.cpp.o.d -o CMakeFiles/Sorting.dir/main.cpp.o -c /Users/wizzz/21school/cpp_practice/sorting/main.cpp
 
-CMakeFiles/Sorting.dir/selectionSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting.dir/selectionSort.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wizzz/21school/cpp_practice/sorting/selectionSort.cpp > CMakeFiles/Sorting.dir/selectionSort.cpp.i
+CMakeFiles/Sorting.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting.dir/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wizzz/21school/cpp_practice/sorting/main.cpp > CMakeFiles/Sorting.dir/main.cpp.i
 
-CMakeFiles/Sorting.dir/selectionSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting.dir/selectionSort.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wizzz/21school/cpp_practice/sorting/selectionSort.cpp -o CMakeFiles/Sorting.dir/selectionSort.cpp.s
+CMakeFiles/Sorting.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting.dir/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wizzz/21school/cpp_practice/sorting/main.cpp -o CMakeFiles/Sorting.dir/main.cpp.s
+
+CMakeFiles/Sorting.dir/Sort.cpp.o: CMakeFiles/Sorting.dir/flags.make
+CMakeFiles/Sorting.dir/Sort.cpp.o: /Users/wizzz/21school/cpp_practice/sorting/Sort.cpp
+CMakeFiles/Sorting.dir/Sort.cpp.o: CMakeFiles/Sorting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sorting.dir/Sort.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting.dir/Sort.cpp.o -MF CMakeFiles/Sorting.dir/Sort.cpp.o.d -o CMakeFiles/Sorting.dir/Sort.cpp.o -c /Users/wizzz/21school/cpp_practice/sorting/Sort.cpp
+
+CMakeFiles/Sorting.dir/Sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting.dir/Sort.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wizzz/21school/cpp_practice/sorting/Sort.cpp > CMakeFiles/Sorting.dir/Sort.cpp.i
+
+CMakeFiles/Sorting.dir/Sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting.dir/Sort.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wizzz/21school/cpp_practice/sorting/Sort.cpp -o CMakeFiles/Sorting.dir/Sort.cpp.s
+
+CMakeFiles/Sorting.dir/Benchmark.cpp.o: CMakeFiles/Sorting.dir/flags.make
+CMakeFiles/Sorting.dir/Benchmark.cpp.o: /Users/wizzz/21school/cpp_practice/sorting/Benchmark.cpp
+CMakeFiles/Sorting.dir/Benchmark.cpp.o: CMakeFiles/Sorting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sorting.dir/Benchmark.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting.dir/Benchmark.cpp.o -MF CMakeFiles/Sorting.dir/Benchmark.cpp.o.d -o CMakeFiles/Sorting.dir/Benchmark.cpp.o -c /Users/wizzz/21school/cpp_practice/sorting/Benchmark.cpp
+
+CMakeFiles/Sorting.dir/Benchmark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting.dir/Benchmark.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wizzz/21school/cpp_practice/sorting/Benchmark.cpp > CMakeFiles/Sorting.dir/Benchmark.cpp.i
+
+CMakeFiles/Sorting.dir/Benchmark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting.dir/Benchmark.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wizzz/21school/cpp_practice/sorting/Benchmark.cpp -o CMakeFiles/Sorting.dir/Benchmark.cpp.s
 
 # Object files for target Sorting
 Sorting_OBJECTS = \
-"CMakeFiles/Sorting.dir/selectionSort.cpp.o"
+"CMakeFiles/Sorting.dir/main.cpp.o" \
+"CMakeFiles/Sorting.dir/Sort.cpp.o" \
+"CMakeFiles/Sorting.dir/Benchmark.cpp.o"
 
 # External object files for target Sorting
 Sorting_EXTERNAL_OBJECTS =
 
-Sorting: CMakeFiles/Sorting.dir/selectionSort.cpp.o
+Sorting: CMakeFiles/Sorting.dir/main.cpp.o
+Sorting: CMakeFiles/Sorting.dir/Sort.cpp.o
+Sorting: CMakeFiles/Sorting.dir/Benchmark.cpp.o
 Sorting: CMakeFiles/Sorting.dir/build.make
 Sorting: /usr/local/lib/libmatplot.dylib
 Sorting: CMakeFiles/Sorting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wizzz/21school/cpp_practice/sorting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Sorting"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sorting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

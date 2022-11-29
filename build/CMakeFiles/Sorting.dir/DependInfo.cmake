@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/wizzz/21school/cpp_practice/sorting/selectionSort.cpp" "CMakeFiles/Sorting.dir/selectionSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/selectionSort.cpp.o.d"
+  "/Users/wizzz/21school/cpp_practice/sorting/Benchmark.cpp" "CMakeFiles/Sorting.dir/Benchmark.cpp.o" "gcc" "CMakeFiles/Sorting.dir/Benchmark.cpp.o.d"
+  "/Users/wizzz/21school/cpp_practice/sorting/Sort.cpp" "CMakeFiles/Sorting.dir/Sort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/Sort.cpp.o.d"
+  "/Users/wizzz/21school/cpp_practice/sorting/main.cpp" "CMakeFiles/Sorting.dir/main.cpp.o" "gcc" "CMakeFiles/Sorting.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
